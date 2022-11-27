@@ -10,6 +10,7 @@ add.addEventListener("click", () => {
                <img src="${UrlElement.value}" alt="" class="imagesize">
                <button class="remove">delete</button>
             </div>`;
+            UrlElement.value="";
 
   const deleted = document.querySelectorAll(".remove");
   for (let i = 0; i < deleted.length; i++) {
