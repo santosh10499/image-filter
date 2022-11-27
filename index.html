@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <h1>Fillter Gallery</h1>
+    <div id="container">
+      <h3>Add Product</h3>
+      <label for="url">Enter Product Url</label>
+      <input type="url" id="url" />
+      <label for="selectitem">Select Product</label>
+      <select id="selectitem">
+        <option>Laptop</option>
+        <option>Phone</option>
+        <option>Headphone</option>
+      </select>
+      <button id="btn">Submit</button>
+    </div>
+    <div id="selectproduct">
+      <button class="btn"  id="all"data-filte="all">All</button>
+      <button class="btn" id="mobile" data-filte="Mobile">Mobile</button>
+      <button class="btn" data-filte="Headphone">Headphone</button>
+      <button class="btn" data-filte="Laptop">Laptop</button>
+    </div>
+
+    <div id="imagediv"></div>
+
+    <script src='index.js'></script>
+  </body>
+</html>
